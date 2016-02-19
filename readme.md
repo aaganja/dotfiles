@@ -19,3 +19,29 @@ Following are some cool feature on my zsh .
 * some cool aliases for you to quickly edit your zshrc "ozrc"
 * Ctags Yea!!! http://ctags.sourceforge.net/
 * auto cd already configured to your ~/dev directory
+
+## VIMRC
+Assuming you have gained the universal enlightenment and understand that there is no other true editor.
+Here is some configurations you would get
+* runtime path to include Vundle and initialize it
+* vim fugitive ( https://github.com/tpope/vim-fugitive )
+* ctrlP ( https://github.com/kien/ctrlp.vim )
+* NERD-tree ( https://github.com/scrooloose/nerdtree )
+* slim template ( https://github.com/slim-template/vim-slim )
+* vim-coffee-scripe ( https://github.com/slim-template/vim-slim )
+* vim-rails ( https://github.com/slim-template/vim-slim )
+* vim-snipmate ( https://github.com/slim-template/vim-slim )
+* tcomment_vim ( https://github.com/slim-template/vim-slim )
+* vim-easytags ( https://github.com/slim-template/vim-slim )
+* vim-eunuch ( https://github.com/slim-template/vim-slim )
+* greplace ( https://github.com/slim-template/vim-slim )
+* vim-surround ( https://github.com/slim-template/vim-slim )
+* vim-text-obj-rubyblock ( https://github.com/slim-template/vim-slim )
+* relative numbers ( https://github.com/slim-template/vim-slim )
+* guifont as Inconsolata ( https://github.com/slim-template/vim-slim )
+* leader mapped to <space> ( https://github.com/slim-template/vim-slim )
+* auto indentations ( https://github.com/slim-template/vim-slim )
+* auto paste configurations ( https://github.com/slim-template/vim-slim )
+* incremental search ( https://github.com/slim-template/vim-slim )
+* matchit enabled ( https://github.com/slim-template/vim-slim )
+* auto adjusting split screens ( https://github.com/slim-template/vim-slim )
