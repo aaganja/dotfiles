@@ -28,20 +28,20 @@ Here is some configurations you would get
 * ctrlP ( https://github.com/kien/ctrlp.vim )
 * NERD-tree ( https://github.com/scrooloose/nerdtree )
 * slim template ( https://github.com/slim-template/vim-slim )
-* vim-coffee-scripe ( https://github.com/slim-template/vim-slim )
-* vim-rails ( https://github.com/slim-template/vim-slim )
-* vim-snipmate ( https://github.com/slim-template/vim-slim )
-* tcomment_vim ( https://github.com/slim-template/vim-slim )
-* vim-easytags ( https://github.com/slim-template/vim-slim )
-* vim-eunuch ( https://github.com/slim-template/vim-slim )
-* greplace ( https://github.com/slim-template/vim-slim )
-* vim-surround ( https://github.com/slim-template/vim-slim )
-* vim-text-obj-rubyblock ( https://github.com/slim-template/vim-slim )
-* relative numbers ( https://github.com/slim-template/vim-slim )
-* guifont as Inconsolata ( https://github.com/slim-template/vim-slim )
-* leader mapped to <space> ( https://github.com/slim-template/vim-slim )
-* auto indentations ( https://github.com/slim-template/vim-slim )
-* auto paste configurations ( https://github.com/slim-template/vim-slim )
-* incremental search ( https://github.com/slim-template/vim-slim )
-* matchit enabled ( https://github.com/slim-template/vim-slim )
-* auto adjusting split screens ( https://github.com/slim-template/vim-slim )
+* vim-coffee-scripe ( https://github.com/kchmck/vim-coffee-script)
+* vim-rails ( https://github.com/tpope/vim-rails)
+* vim-snipmate ( https://github.com/garbas/vim-snipmate)
+* tcomment_vim ( https://github.com/tomtom/tcomment_vim)
+* vim-easytags ( https://github.com/xolox/vim-easytags)
+* vim-eunuch ( https://github.com/tpope/vim-eunuch)
+* greplace ( https://github.com/skwp/greplace.vim)
+* vim-surround ( https://github.com/tpope/vim-surround)
+* vim-text-obj-rubyblock ( https://github.com/nelstrom/vim-textobj-rubyblock)
+* relative numbers
+* guifont as Inconsolata
+* leader mapped to <space>
+* auto indentations
+* auto paste configurations
+* incremental search
+* matchit enabled
+* auto adjusting split screens
