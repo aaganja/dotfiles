@@ -31,7 +31,7 @@ Bundle 'skwp/greplace.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
-
+Bundle 'dkprice/vim-easygrep'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -69,6 +69,8 @@ set winheight=5
 set winminheight=5
 set winheight=999
 map <Leader>v :windo wincmd H <CR>
+set splitright " Naturally open the splits into the right
+
 
 " Stripe whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
