@@ -33,6 +33,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'dkprice/vim-easygrep'
+Bundle 'plasticboy/vim-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -90,3 +91,7 @@ map <leader> C :w !pbcopy<CR>
 map <leader> P :w !pbpaste<CR>
 " Matchit enable
 runtime macros/matchit.vim
+
+" MARKDOWN SYNTAX
+set nofoldenable
+
