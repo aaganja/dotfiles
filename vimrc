@@ -23,6 +23,7 @@ Plugin 'tpope/vim-rails.git'
 Bundle 'tomtom/tlib_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'garbas/vim-snipmate'
+Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-easytags'
@@ -85,5 +86,7 @@ set ls=2
 " let g:rspec_command = '!bundle exec rspec {spec}'
 "let g:rspec_command = '!time spring spec {spec}'
 map <Leader>r :Rake<CR>
+map <leader> C :w !pbcopy<CR>
+map <leader> P :w !pbpaste<CR>
 " Matchit enable
 runtime macros/matchit.vim
