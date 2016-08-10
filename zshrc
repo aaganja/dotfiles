@@ -86,6 +86,8 @@ source $ZSH/oh-my-zsh.sh
 alias ovimrc='vi ~/.vimrc'
 alias ozrc='vi ~/.zshrc'
 alias oc='vi .'
+alias be='bundle exec'
+alias bi='bundle install'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ctags=/usr/local/bin/ctags
 
@@ -94,4 +96,4 @@ ctags=/usr/local/bin/ctags
 
 setopt auto_cd
 cdpath=($HOME/dev/tools $HOME/dev/jyaasa $HOME/dev/ouibox)
-
+export PATH="$PATH:/Users/admin/dev/tools/arcanist/bin/"

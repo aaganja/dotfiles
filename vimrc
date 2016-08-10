@@ -95,3 +95,5 @@ runtime macros/matchit.vim
 " MARKDOWN SYNTAX
 set nofoldenable
 
+" shows column at 81 characters
+set cc=81
