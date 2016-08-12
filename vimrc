@@ -71,6 +71,7 @@ set winheight=5
 set winminheight=5
 set winheight=999
 map <Leader>v :windo wincmd H <CR>
+set splitbelow
 set splitright " Naturally open the splits into the right
 
 
