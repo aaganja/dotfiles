@@ -54,7 +54,6 @@ map <Leader>i mmgg=G`m<CR>
 "map for pasting
 map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
 " NERD TREE SETTINGS
-let g:NERDTreeHijackNetrw=0
 map <Leader>N :NERDTreeToggle<CR>
 " Search settings
 set incsearch
