@@ -97,3 +97,7 @@ set nofoldenable
 
 " shows column at 81 characters
 set cc=81
+
+" Filetype defination for Gemfile
+autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+
