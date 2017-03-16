@@ -5,7 +5,7 @@ export ZSH=/Users/admin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="crunch"
+ZSH_THEME="grunz"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -74,6 +74,11 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# FUNCTIONS
+function tmux_command(){
+  tmux new -s $1
+}
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -85,9 +90,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias ovimrc='vi ~/.vimrc'
 alias ozrc='vi ~/.zshrc'
+alias otconf='vi ~/.tmux.conf'
 alias oc='vi .'
 alias be='bundle exec'
 alias bi='bundle install'
+alias tm='tmux_command $1'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ctags=/usr/local/bin/ctags
 
@@ -95,5 +102,15 @@ ctags=/usr/local/bin/ctags
 # https://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 
 setopt auto_cd
-cdpath=($HOME/dev/tools $HOME/dev/jyaasa $HOME/dev/ouibox)
+cdpath=($HOME/dev/tools $HOME/dev/jyaasa $HOME/dev/ouibox )
 export PATH="$PATH:/Users/admin/dev/tools/arcanist/bin/"
+
+
+# https://github.com/erikw/tmux-powerline
+PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+
+# Fix for the Airline theme not being carried over inside the tmux
+# Source of the solution :
+# http://stackoverflow.com/questions/35078688/airline-vim-does-not-work-inside-tmux
+export TERM=screen-256color
+export ANDROID_HOME=/usr/local/opt/android-sdk

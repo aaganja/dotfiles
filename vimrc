@@ -8,17 +8,19 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+Bundle 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
+" Keep Bundle commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/The-NERD-tree'
 Bundle 'slim-template/vim-slim.git'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-rails.git'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+Bundle 'tpope/vim-rails.git'
 
 Bundle 'tomtom/tlib_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -34,7 +36,8 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'dkprice/vim-easygrep'
 Bundle 'plasticboy/vim-markdown'
-" All of your Plugins must be added before the following line
+
+" All of your Bundles must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on
@@ -44,7 +47,7 @@ set relativenumber
 
 set nobackup
 set tabstop=2 shiftwidth=2 expandtab
-set guifont=Inconsolata\ 16
+set guifont=Inconsolata\ 24
 " LEADER
 let mapleader = " "
 
@@ -100,4 +103,7 @@ set cc=81
 
 " Filetype defination for Gemfile
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+
+" Vim Airline settings
+let g:airline#extensions#tabline#enabled = 1
 
